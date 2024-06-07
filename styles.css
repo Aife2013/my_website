@@ -14,14 +14,14 @@ body.dark-mode {
 
 header {
     background: #1f1f1f;
-    color: #ffffff;
+    color: #fc6c85;
     padding: 1rem;
     text-align: center;
 }
 
 body.dark-mode header {
     background: #ffffff;
-    color: #121212;
+    color: #fc6c85;
 }
 
 nav ul {
@@ -53,7 +53,7 @@ section {
 
 footer {
     background: #1f1f1f;
-    color: #ffffff;
+    color: #fc6c85;
     text-align: center;
     padding: 1rem;
     position: fixed;
@@ -63,5 +63,5 @@ footer {
 
 body.dark-mode footer {
     background: #ffffff;
-    color: #121212;
+    color: #fc6c85;
 }
