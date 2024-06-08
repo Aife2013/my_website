@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maansi Dasmohapatra's Website</title>
+    <title>Maansi Dasmohapatra</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,26 +15,26 @@
                 <li><a href="#cv">CV</a></li>
             </ul>
         </nav>
-        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <button onclick="showHobbies()">About Me</button>
     </header>
     <main>
         <section id="home">
-            <h2>About Me</h2>
-            <p>Hi, I'm Maansi Dasmohapatra. Here are a few of my hobbies:</p>
-            <ul>
-                <li>Reading</li>
-                <li>Playing Games</li>
-                <li>Singing</li>
-            </ul>
-        </section>
-        <section id="cv">
-            <h2>CV</h2>
-            <p><strong>Career History:</strong> None</p>
+            <h2>Home</h2>
+            <div class="profile">
+                <img src="profile_picture.jpg" alt="Maansi Dasmohapatra">
+                <div class="profile-info">
+                    <p>I am currently a student at MIT-WPU in Pune, doing a course in Electrical Engineering.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Maansi Dasmohapatra</p>
     </footer>
-    <script src="script.js"></script>
+    <script>
+        function showHobbies() {
+            alert("Hobbies: Reading, Playing Games, Singing");
+        }
+    </script>
 </body>
 </html>
